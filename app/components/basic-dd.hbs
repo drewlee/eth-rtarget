@@ -1,0 +1,8 @@
+<div class="basic-dd" {{on "focusout" this.closeMenu}}>
+  <button type="button" class="basic-dd__trigger" {{on "click" this.openMenu}}>Trigger</button>
+
+  <ul class="basic-dd__menu {{if this.isOpen "visible"}}">
+    <li class="basic-dd__menu_item"><button type="button">Option 1</button></li>
+    <li class="basic-dd__menu_item"><button type="button">Option 2</button></li>
+  </ul>
+</div>

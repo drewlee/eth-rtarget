@@ -1,0 +1,22 @@
+.basic-dd {
+  position: relative;
+}
+
+.basic-dd__menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.basic-dd__menu.visible {
+  display: block;
+}
+
+.basic-dd__menu_item {
+  padding: 5px 0;
+}
